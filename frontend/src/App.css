@@ -1,0 +1,653 @@
+#root {
+    background: #0B1426;
+    color: white;
+}
+
+.SectionTitle {
+    font-size: 25px;
+    color: #11CFFA;
+    text-shadow: 0 0 5px #11CFFA;
+    font-weight: bold;
+}
+
+.SectionSubTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.TimeDown {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 77px;    
+    background-image: linear-gradient(180deg, #0A5F88 0%, #11CFFA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;   
+}
+
+.opacity-panel {
+    background: rgba(10, 95, 136, 0.2);
+    border: 3px solid #11CFFA;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.opacity-panel .opacity-panel-title {
+    color: #00D0FF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.opacity-panel .opacity-panel-image img{
+    width: 100%;
+}
+
+.opacity-panel .opacity-panel-image {
+    height: 380px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 3px solid #11CFFA;
+    box-sizing: border-box;
+}
+
+.opacity-panel .opacity-panel-body-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;   
+    margin: 0.5rem 0;
+}
+
+.opacity-panel .opacity-panel-body-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #11CFFA;    
+    text-shadow: 0px 0px 5px #11CFFA;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 1rem;
+}
+
+.BurnDrakoPage .walletaddress {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #11CFFA;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.opacity-panel .opacity-panel-body .d-flex.justify-content-between span:last-child {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #11CFFA;
+    text-shadow: 0px 0px 5px #11CFFA;
+}
+
+.opacity-panel .opacity-panel-body input {
+    background: none;
+    border: 2px solid #11CFFA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.dropzone-ui.dropzone-ui-extra.clickable {
+    background: none;
+    height: 100%;
+    width: 100%;
+}
+
+/* Buttons Style */
+.Out-Line-Btn-Sky {
+    color: #11CFFA;
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    border: 3px solid #11CFFA;
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Btn-Gradient-Round-Sky {
+    background: linear-gradient(90deg, #1199FA 0%, #00D0FF 100%);
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0.5rem 2.5rem;
+}
+
+.Btn-Gradient-Round-Sky:hover {
+    border-color: white;
+    box-shadow: 0 0 10px 0 #11CFFA;
+}
+
+.BtnSkyOpen {
+    background: #00D0FF;
+    border-radius: 10px;
+    color: #0B1426;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.BtnSkyOpen:hover,
+.BtnSkyOpen:active,
+.BtnSkyOpen:focus,
+.BtnSkyOpen:focus-within {
+    box-shadow: 0 0 5px 0 #11CFFA !important;
+    background: #11CFFA !important;  
+}
+
+.StateCardBtn {
+    background: #0B1426;
+    border-radius: 10px;
+    color: #0B1426;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.opacity-panel .opacity-panel-body .BtnSkyOpen {
+    color: white;
+    width: 70%;
+}
+
+.StateCardBtn:focus,
+.StateCardBtn:hover {
+    background: #0B1426;
+    border-radius: 10px;
+    color: #00D0FF;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 0 0 10px 0 #00D0FF;
+}
+
+.BurnBtn {
+    background: #FFC700;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF0D0D;
+    border: none;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.BurnBtn:focus,
+.BurnBtn:hover,
+.BurnBtn:active {
+    background: #FFC700 !important;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF0D0D !important;
+    border: none;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    box-shadow: 0 0 10px 0 #FFC700;
+}
+
+.Bid-list table {
+    margin-top: 2rem;
+}
+
+.Bid-list table tr th,
+.Bid-list table tr td {
+    background: none;
+    color: white;
+    border-color: #00D0FF;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.Bid-list table tr th:last-child,
+.Bid-list table tr td:last-child {
+    color: #00D0FF;
+    text-align: right;
+}
+
+@media (max-width:992px) {
+    .Bid-list table tr th,
+.Bid-list table tr td {
+    background: none;
+    color: white;
+    border-color: #00D0FF;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 40px;
+}
+
+.Bid-list table tr th:last-child,
+.Bid-list table tr td:last-child {
+    color: #00D0FF;
+    text-align: right;
+}
+}
+
+.RaffleWinnerPage .Section .col-lg-4.col-md-4.col-sm-12 img {
+    width: 100%;
+    border: 3px solid #00D0FF;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 #00D0FF;
+}
+
+.RaffleDetailPage .opacity-panel .opacity-panel-image-body img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 #00D0FF;
+}
+
+.MintNFTPage .opacity-panel form .form-control {
+    background: #0B1426;
+    border: 2px solid #11CFFA;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 1.5rem 1rem;
+}
+
+.P2PTradingPage .opacity-panel .form-control {
+    background: #0B1426;
+    border: 2px solid #11CFFA;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 1.5rem 1rem;
+}
+
+.FloorSweepPage .opacity-panel form .form-control {
+    background: #0B1426;
+    border: 2px solid #11CFFA;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 1.5rem 1rem;
+}
+
+.FloorSweepPage .opacity-panel form .BtnSkyOpen {
+    width: 100%;
+    padding: 0.75rem;
+}
+
+.MintNFTPage .opacity-panel form .form-label {
+    font-weight: 700;
+}
+
+.MintNFTPage .opacity-panel form .BtnSkyOpen {
+    color: white;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+.P2PTradingPage .opacity-panel .form-label {
+    font-weight: 700;
+}
+
+.P2PTradingPage .opacity-panel .BtnSkyOpen {
+    color: white;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+/* Header Style */
+
+.Header {
+    background: #0B1426;
+}
+
+.Header .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.Header .navbar-nav .nav-link.active,
+.Header .navbar-nav .nav-link:hover,
+.Header .navbar-nav .nav-link:focus {
+    color: #11CFFA;
+}
+
+.Header .navbar-nav .nav-link:last-child.connect-wallet {
+    background: linear-gradient(90deg, #1199FA 0%, #11CFFA 100%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Header .navbar button.navbar-toggler {
+    background: #11CFFA;
+    border: none;
+}
+
+.Header .navbar .nav-item.show.dropdown .dropdown-toggle.nav-link {
+    color: white;
+}
+
+.Header .navbar .navbar-collapse.show {
+    text-align: center;
+}
+
+.Header .navbar .dropdown-menu.show {
+    text-align: center;
+    background: #0B1426;
+}
+
+.Header .navbar .dropdown-menu.show .dropdown-item {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* BannerBottom Style */
+
+.BannerBottom {
+    background: linear-gradient(90deg, #1199FA 0%, #11CFFA 32.29%, #00D0FF 70.31%, #1199FA 100%);
+}
+
+.BannerBottom-header-title {
+    font-family: 'Gill Sans Ultra Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.BannerBottom-header-text {
+    font-family: 'Gill Sans Ultra Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.BannerBottom .BannerBottom-main {
+    color: #0B1426;
+}
+
+.BannerBottom .BannerBottom-main h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.BannerBottom .BannerBottom-main p {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+}
+/* Footer Style */
+
+.Footer .Footer-Top {
+    background-image: url(./assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Footer .Footer-Top .nav-link {
+    color: #11CFFA;
+    font-size: 40px;
+}
+
+/* Carousel Style */
+
+.LandingCarousel .carousel .carousel-inner {
+    border-radius: 50px;
+    box-shadow: 0 0 30px 0 #11CFFA;
+}
+
+.LandingCarousel .carousel .carousel-inner .carousel-caption {
+    top: 1.25rem !important;
+}
+
+.CarouselBadge {
+    background: linear-gradient(90deg, #1199FA 0%, #00D0FF 100%);
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    width: 25%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LandingCarousel .carousel .carousel-inner .carousel-caption p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.LandingCarousel .carousel .carousel-inner .carousel-caption h3 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+@media (max-width:1200px) {
+    .CarouselBadge {
+        background: linear-gradient(90deg, #1199FA 0%, #00D0FF 100%);
+        border: 3px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0.5rem 0.5rem;
+        width: 30%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .LandingCarousel .carousel .carousel-inner .carousel-caption p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 39px;
+    }
+    
+    .LandingCarousel .carousel .carousel-inner .carousel-caption h3 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .Btn-Gradient-Round-Sky {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width:992px) {
+    .LandingCarousel .carousel .carousel-inner .carousel-caption {
+        display: none;
+    }
+}
+
+.Raffle-Tickets-carousel {
+    border-top: 2px solid #00D0FF;
+    border-bottom: 2px solid #00D0FF;
+}
+
+/* Cards Style */
+.CollectionCard {
+    background: #14253D;
+    border: 2px solid #11CFFA;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #00D0FF;
+    border-radius: 20px;
+}
+
+.CollectionCard .card-body .card-body-image,
+.CollectionCard .card-body .card-body-info {
+    background: #0B1426;
+    border-radius: 15px;    
+    color: #11CFFA;
+}
+
+.CollectionCard .card-body .card-body-price {
+    font-size: 20px;
+}
+
+.CollectionCard .card-body .card-body-image .col:first-child {
+    border-right: 2px solid #6c757d;
+}
+
+.CollectionCard .card-body .card-body-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.RaffleTickets {
+    background: none;
+    padding: 1rem;
+}
+
+.RaffleTickets img {    
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #11CFFA;
+}
+
+.StateCard {
+    background: #14253D;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+.StateCard.state-live {
+    box-shadow: 0 0 20px 0 #00D0FF;
+    border: 3px solid #00D0FF;
+}
+
+.StateCard .card-body .card-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.StateCard .card-body .card-text {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+.StateCard .card-body .card-text span:last-child {
+    color: #00D0FF;
+}
+
+
+.StateCard .card-body .card-image img {
+    filter: grayscale(1);
+}
+
+.StateCard .card-body .card-image {
+    background: #0B1426;
+    height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #00D0FF;
+}
+
+.StateCard .card-body .card-image .card-image-body {
+    height: 80%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.CollectionCard .card-image {
+    overflow: hidden;
+    background: #0B1426;
+    border: 3px solid #2F4052;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 0;
+    height: 300px;
+}
+
+.StateCard.card .card-body .card-subtitle {
+    color: #11CFFA;
+}
+
+.BurnDrakoCard {
+    background: linear-gradient(180deg, #FA8905 0%, #E93902 100%);
+    border: 3px solid #FA7B05;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.BurnDrakoCard .card-body .card-image-body {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.TradeCollectionSmCard {
+    background: none;
+    border: none;
+}
+
+.TradeCollectionSmCard .card-body .card-image-body {
+    height: 180px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* Tab Style */
+.P2PTradingPage .opacity-panel {
+    overflow: hidden;
+}
+.P2PTradingPage .opacity-panel .nav.nav-tabs {
+    background: #11CFFA;
+    border: none;
+    padding: 0.25rem;
+}
+
+.P2PTradingPage .opacity-panel .nav.nav-tabs .nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem;
+    border: none;
+}
+
+.P2PTradingPage .opacity-panel .nav.nav-tabs .nav-item .nav-link:hover {
+    border: none;
+    color: #14253D;
+}
+
+.P2PTradingPage .opacity-panel .nav.nav-tabs .nav-item .nav-link.active {
+    background: #11CFFA;
+    border: none;
+    color: #0B1426;
+}
