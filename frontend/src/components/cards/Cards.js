@@ -119,14 +119,14 @@ export function RemoveCard () {
     return(
         <Card className='RemoveCard'>
             <Card.Body>
-                <DivContainer className="d-flex flex-row">
-                    <DivContainer>1</DivContainer>
-                    <DivContainer className="d-flex flex-column justify-content-center">
+                <DivContainer className="d-flex flex-row align-item-center">
+                    <DivContainer><Image src={Collection1}/></DivContainer>
+                    <DivContainer className="d-flex flex-column justify-content-center ml-2">
                         <span>Solana</span>
                         <span><strong>0.01</strong></span>
-                    </DivContainer>
-                    <DivContainer><Button>Remove</Button></DivContainer>
+                    </DivContainer>                    
                 </DivContainer>
+                <DivContainer><Button>Remove</Button></DivContainer>
             </Card.Body>            
         </Card>
     )

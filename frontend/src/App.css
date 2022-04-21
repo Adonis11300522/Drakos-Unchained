@@ -281,7 +281,7 @@
     border-radius: 10px;
     color: white;
     font-weight: 700;
-    padding: 1.5rem 1rem;
+    padding: 0.75rem 1rem;
 }
 
 .FloorSweepPage .opacity-panel form .form-control {
@@ -624,6 +624,28 @@
     border-radius: 15px;
 }
 
+.RemoveCard.card {
+    background: #2F4052;
+    box-shadow: 0px 4px 4px #0B1426;
+    border-radius: 20px;
+}
+
+.RemoveCard.card .card-body img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.RemoveCard.card .card-body button {
+    width: 100%;
+    background: #14253D;
+    border: 1px solid #FA8905;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FA7B05;
+    margin-top: 1rem;
+}
+
 /* Tab Style */
 .P2PTradingPage .opacity-panel {
     overflow: hidden;
@@ -650,4 +672,8 @@
     background: #11CFFA;
     border: none;
     color: #0B1426;
+}
+
+.P2PTradingPage .opacity-panel .TradeCollectionSmCard-left {
+    border-right: 2px solid #0A5F88;
 }

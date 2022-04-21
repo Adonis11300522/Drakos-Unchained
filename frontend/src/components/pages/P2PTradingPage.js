@@ -3,7 +3,7 @@ import { Col, Container, Row, Form, Button } from 'react-bootstrap'
 import { DivContainer, Layout, Section, SectionSubTitle, SectionTitle } from '../tags/Tags'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
-import { TradeCollectionSmCard } from '../cards/Cards'
+import { RemoveCard, TradeCollectionSmCard } from '../cards/Cards'
 
 export default function P2PTradingPage() {
     return (
@@ -48,17 +48,26 @@ export default function P2PTradingPage() {
                                     <SectionSubTitle><span className='text-warning'>STEP2</span>- Your offer(s)</SectionSubTitle>
                                     <DivContainer className="opacity-panel p-3">
                                         <Row>
-                                            <Col lg="6" md="6" sm="6">
+                                            <Col lg="6" md="6" sm="6" className="TradeCollectionSmCard-left">
                                                 <DivContainer className="TradeCollectionSmCard-list">
                                                     <TradeCollectionSmCard/>
                                                 </DivContainer>
                                             </Col>
-                                            <Col lg="6" md="6" sm="6"></Col>
+                                            <Col lg="6" md="6" sm="6">
+                                                <RemoveCard/>
+                                            </Col>
                                         </Row>
                                     </DivContainer>
                                     <SectionSubTitle><span className='text-warning'>STEP3</span>- Add the counterparty wallet address</SectionSubTitle>
-                                    <DivContainer className="opacity-panel">
-                                        
+                                    <DivContainer className="opacity-panel p-3">
+                                        <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
+                                            <Form.Label column sm="2">
+                                            Password
+                                            </Form.Label>
+                                            <Col sm="10">
+                                            <Form.Control type="password" placeholder="Password" />
+                                            </Col>
+                                        </Form.Group>
                                     </DivContainer>
                                 </Col>
                             </Row>
