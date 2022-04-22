@@ -19,13 +19,26 @@ export default function P2PTradingPage() {
                                     <DivContainer className="opacity-panel">
                                         <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3 d-flex flex-row justify-content-around">
                                             <Tab eventKey="home" title="NFT (0)">
-                                                <DivContainer className="p-3">s</DivContainer>
+                                                <DivContainer className="p-3 text-center">
+                                                    <h4>Connect Your Wallet to Start Trading</h4>
+                                                    <Button className='BtnSkyOpen'>Connect Wallet</Button>
+                                                </DivContainer>
                                             </Tab>
                                             <Tab eventKey="profile" title="Whitelist Tokens (0)">
-                                                <DivContainer className="p-3">s</DivContainer>
+                                                <DivContainer className="p-3">
+                                                    <DivContainer className="p-3 text-center">
+                                                        <h4>Connect Your Wallet to Start Trading</h4>
+                                                        <Button className='BtnSkyOpen'>Connect Wallet</Button>
+                                                    </DivContainer>
+                                                </DivContainer>
                                             </Tab>
                                             <Tab eventKey="contact" title="Utility Tokens (0)">
-                                                <DivContainer className="p-3">s</DivContainer>
+                                                <DivContainer className="p-3">
+                                                    <DivContainer className="p-3 text-center">
+                                                        <h4>Connect Your Wallet to Start Trading</h4>
+                                                        <Button className='BtnSkyOpen'>Connect Wallet</Button>
+                                                    </DivContainer>
+                                                </DivContainer>
                                             </Tab>
                                         </Tabs>                                        
                                     </DivContainer>
