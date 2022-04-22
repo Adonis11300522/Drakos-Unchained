@@ -60,7 +60,7 @@ export default function P2PTradingPage() {
                                     </DivContainer>
                                     <SectionSubTitle><span className='text-warning'>STEP3</span>- Add the counterparty wallet address</SectionSubTitle>
                                     <DivContainer className="opacity-panel p-3">
-                                        <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
+                                        <Form.Group as={Row} className="" controlId="formPlaintextPassword">
                                             <Form.Label column sm="2">
                                             Password
                                             </Form.Label>
@@ -69,6 +69,7 @@ export default function P2PTradingPage() {
                                             </Col>
                                         </Form.Group>
                                     </DivContainer>
+                                    <DivContainer className="mt-3"><Button className="BtnSkyOpen">Create Trade</Button></DivContainer>
                                 </Col>
                             </Row>
                         </DivContainer>
