@@ -19,13 +19,13 @@ export default function P2PTradingPage() {
                                     <DivContainer className="opacity-panel">
                                         <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3 d-flex flex-row justify-content-around">
                                             <Tab eventKey="home" title="NFT (0)">
-                                                <DivContainer className="p-3">sdfsfsdf</DivContainer>
+                                                <DivContainer className="p-3">s</DivContainer>
                                             </Tab>
                                             <Tab eventKey="profile" title="Whitelist Tokens (0)">
-                                                sdfsdsdfg1234214
+                                                <DivContainer className="p-3">s</DivContainer>
                                             </Tab>
                                             <Tab eventKey="contact" title="Utility Tokens (0)">
-                                                sdfsdf12342134234234234234
+                                                <DivContainer className="p-3">s</DivContainer>
                                             </Tab>
                                         </Tabs>                                        
                                     </DivContainer>
